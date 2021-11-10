@@ -11,4 +11,5 @@ spec:
   natsSecure: true
   natsSubjectRoot: DIMSE
   natsTokenSecret: ingestion-nats-secure-bound-token
-  proxy: {}
+  proxy:
+    image: quay.io/jeesmon/dicom-dimse-proxy:0.0.1
